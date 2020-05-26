@@ -62,7 +62,7 @@ Se estiman **102 stories/tareas** y una duración de **260 horas** distribuidas 
 Por lo tanto esto equivale a **7 sprints** de una semana de duración.
 
 ### Roadmap 
-![alt text](/Users/nlabbe/Downloads/weprojectapp_2020-05-25_05.00pm.png "Roadmap WeProject")
+![alt text](https://i.ibb.co/PtSCXZL/weprojectapp-2020-05-25-05-00pm.png "Roadmap WeProject")
 Roadmap por epic.
 
 ### Work breakdown structure
