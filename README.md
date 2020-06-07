@@ -45,29 +45,31 @@ Se define la metedología ágil scrum para el desarrollo del proyecto.
 
 ## Planificación
 
+<!-- project = WPA AND Sprint in ("WPA Sprint 1",  "WPA Sprint 2", "WPA Sprint 3", "WPA Sprint 4", "WPA Sprint 5", "WPA Sprint 6", "WPA Sprint 7") -->
+
 La capacidad de desarrollo es de **34 horas/semana**.
 
 Según la metodología se definen siete epics:
 
-* Epic	WPA-22	API (1 junio 2020 - 5 junio 2020)
-* Epic	WPA-23	Seguridad, autenticación y autorización (1 junio 2020 - 5 junio 2020)
-* Epic	WPA-24	Mapa/Catálogo (8 junio 2020 - 19 junio 2020)
-* Epic	WPA-25	Detalle propiedad (15 junio 2020 - 26 junio 2020)
-* Epic	WPA-26	Publicación propiedad (22 junio 2020 - 3 julio 2020)
-* Epic	WPA-27	Administración (29 junio 2020 - 10 junio 2020)
-* Epic	WPA-28	Usuarios (6 junio 2020 - 17 junio 2020)
+* Epic	WPA-22	API (8 junio 2020 - 12 junio 2020)
+* Epic	WPA-23	Seguridad, autenticación y autorización (8 junio 2020 - 12 junio 2020)
+* Epic	WPA-24	Mapa/Catálogo (15 junio 2020 - 26 junio 2020)
+* Epic	WPA-25	Detalle propiedad (22 junio 2020 - 3 julio 2020)
+* Epic	WPA-26	Publicación propiedad (29 junio 2020 - 10 julio 2020)
+* Epic	WPA-27	Administración (6 julio 2020 - 17 julio 2020)
+* Epic	WPA-28	Usuarios (13 julio 2020 - 24 julio 2020)
 
-Se estiman **102 stories/tareas** y una duración de **260 horas** distribuidas en **7 semanas**. 
+Se estiman **109 issues** y una duración de **260 horas** distribuidas en **7 semanas**. 
 
 Por lo tanto esto equivale a **7 sprints** de una semana de duración.
 
 ### Roadmap 
-![alt text](https://i.ibb.co/PtSCXZL/weprojectapp-2020-05-25-05-00pm.png "Roadmap WeProject")
+![alt text](https://i.imgur.com/UghscAy.png "Roadmap WeProject")
 Roadmap por epic.
 
 ### Work breakdown structure
 
-* __WPA Sprint 1 (1 junio 2020 - 5 junio 2020) (35 horas)__
+* __WPA Sprint 1 (8 junio 2020 - 12 junio 2020)__
 	* Story	WPA-99	Publicar API
 		* Subtask	WPA-130	Crear diagrama de la arquitectura de la aplicación	
 		* Subtask	WPA-131	Crear diagrama de modelo de clases	
@@ -120,14 +122,14 @@ Roadmap por epic.
 		* Subtask	WPA-127	Add identity controller
 		* Subtask	WPA-128	Adding a Nuget Dependency
 		* Subtask	WPA-129	Configuration
-* __WPA Sprint 2 (8 junio 2020 - 12 junio 2020) (42.5 horas)__
-	* Task	WPA-65	Como Publisher quiero tener una ubicación representativa de la Propiedad
+* __WPA Sprint 2 (15 junio 2020 - 19 junio 2020) (43 horas)__
 	* Task	WPA-58	Diseñar la vista Mapa/Catálogo
 	* Story	WPA-155	Como User quiero una vista de Mapa/Catálogo
 	* Story	WPA-154	Como User quiero buscar propiedades por zona seleccionada
 	* Story	WPA-59	Como User quiero explorar propiedades en un mapa
 	* Story	WPA-60	Como User quiero explorar propiedades en un catálogo
-* __WPA Sprint 3 (15 junio 2020 - 19 junio 2020) (47.5 horas)__
+	* Task	WPA-65	Como Publisher quiero tener una ubicación representativa de la Propiedad
+* __WPA Sprint 3 (22 junio 2020 - 26 julio 2020) (34.5 horas)__
 	* Story	WPA-61	Como User quiero poder ordenar la lista de propiedades por ciertos criterios
 	* Story	WPA-62	Como User quiero poder filtrar la lista de propiedades que se muestran
 	* Story	WPA-63	Como User quiero poder ordenar la lista de propiedades por "Ranking de Mejor Información"
@@ -135,10 +137,9 @@ Roadmap por epic.
 	* Story	WPA-66	Como user quiero tener una "paginación" de la lista de propiedades
 	* Task	WPA-74	Diseñar la Vista de Detalle
 	* Story	WPA-156	Como User quiero ver una Vista de Detalle
+* __WPA Sprint 4 (29 junio 2020 - 3 julio 2020) (35 horas)__
 	* Story	WPA-72	Como User quiero ver un portafolio de una propiedad
-* __WPA Sprint 4 (22 junio 2020 - 26 julio 2020) (38 horas)__
 	* Story	WPA-69	Como User, quiero ver la información de la propiedad
-	* Story	WPA-70	Como User quiero ver la ubicación aproximada de la propiedad en un mapa
 	* Story	WPA-67	Como User, quiero ver las características del proyecto
 	* Story	WPA-68	Como usuario, quiero ver los planos de la propiedad
 	* Story	WPA-73	Como user, quiero poder compartir una propiedad
@@ -146,24 +147,24 @@ Roadmap por epic.
 	* Task	WPA-76	Definir criterios de cantidad máxima de archivos multimedia por propiedad
 	* Task	WPA-77	Definir criterios de tamaño de archivos multimedia
 	* Task	WPA-84	Diseñar la Vista de Publicación Propiedad
+* __WPA Sprint 5 (6 julio 2020 - 10 julio 2020) (33 horas)__
 	* Story	WPA-157	Como User quiero ver una Vista de Publicación de Propiedad
 	* Task	WPA-85	Definir criterios de evaluación solicitud de propiedad
 	* Story	WPA-83	Como Publisher quiero poder cargar portafolio 
 	* Story	WPA-81	Como publisher, quiero poder ingresar información de la propiedad
-* __WPA Sprint 5 (29 junio 2020 - 3 julio 2020) (33 horas)__
 	* Story	WPA-79	Como publisher, quiero poder ingresar la ubicación de la propiedad
 	* Story	WPA-80	Como publisher, quiero poder ingresar los planos de una propiedad
 	* Story	WPA-82	Como publisher quiero poder agregar características de la propiedad
+	* Story	WPA-161	Como publisher quiero integrarme con Prop360
+* __WPA Sprint 6 (13 julio 2020 - 17 julio 2020) (39 horas)__
 	* Task	WPA-88	Diseñar Vista de Administración
 	* Story	WPA-158	Como Admin quiero una vista de Administración
-	* Story	WPA-86	Como administrador, quiero poder aceptar/rechazar solicitudes de publicación de propiedades
-* __WPA Sprint 6 (6 julio 2020 - 10 julio 2020) (31 horas)__
 	* Story	WPA-87	Como administrador, quiero poder administrar usuarios
 	* Story	WPA-159	Como Administrador quiero poder administrar subscripciones
-	* Story	WPA-92	Como user quiero registrar una nueva cuenta en el sistema
-* __WPA Sprint 7 (13 julio 2020 - 17 julio 2020) (33 horas)__
+* __WPA Sprint 7 (20 julio 2020 - 24 julio 2020) (36 horas)__
 	* Story	WPA-91	Como user quiero poder iniciar sesión en el sistema
 	* Story	WPA-90	Como user, quiero tener un vista de perfil de usuario
 	* Story	WPA-89	Como user, quiero poder ver un wishlist de propiedades
 	* Story	WPA-93	Como user quiero recuperar contraseña
 	* Story	WPA-98	Como usuario quiero comparar propiedades
+	* Story	WPA-92	Como user quiero registrar una nueva cuenta en el sistema
